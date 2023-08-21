@@ -3,23 +3,23 @@
 header {
     position: fixed; width: 100%; 
     display: flex; flex-flow: column nowrap; align-items: center;
-    padding: 15px 0 0; background: #fff; z-index: 999; height: 130px;
+    padding: 10px 0 0; background: #fff; z-index: 999; height: 100px;
 }
-header h1 {margin-bottom: 20px;}
+header h1 {margin-bottom: 20px; width: 150px;}
 header h1 a {}
-header h1 a img {}
+header h1 a img {width: 100%;}
 header nav {
     z-index: 999;
 }
 header nav .main_nav {
-    display: flex; 
+    display: flex;
 }
-header nav .main_nav > li {margin-right: 100px;}
+header nav .main_nav > li {margin-right: 40px;}
 header nav .main_nav > li:last-child {margin-right: 0;}
 header nav .main_nav > li > a {
-    display: inline-block; font-size: 1.25rem;
+    display: inline-block; font-size: 1rem; font-weight: 700;
     padding-bottom: 10px; width: 92px; transition: all 0.1s; 
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 header nav .main_nav > li > a:hover {
     border-bottom: 3px solid #FDD000;
@@ -28,9 +28,9 @@ header nav .main_nav > li > .sub_nav {}
 header nav .main_nav > li > .sub_nav > li {margin-bottom: 25px;}
 header nav .main_nav > li > .sub_nav > li:last-child {margin-bottom: 0;}
 header nav .main_nav > li > .sub_nav > li > a{font-size: 1.1rem;}
-header .bg0{height: 400px; width: 100%; background: #fff;  position: absolute; top: 65px;}  
+header .bg0{height: 250px; width: 100%; background: #fff;  position: absolute; top: 65px;}  
 /* main top ------------------------------------------------------------------------------ */
-main {padding-top: 130px; background: lightblue; position: relative;} 
+main {padding-top: 100px; position: relative;} 
 main .top {} 
 main .top .swiper {
     width: 100%;
@@ -61,55 +61,76 @@ main .content1 .bg1 {
     background: url(../tastimg/bg1.jpg) center no-repeat;
     background-size: cover;
     position: relative;
+    padding: 70px 0;
 }
 main .content1 .bg1 .txt1 {
-    position: relative;
-    display: flex; flex-flow: column nowrap; align-items: center; left: 460px;
+    display: flex; flex-flow: column nowrap; align-items: center; width: 500px;
+    position: relative; left: 900px;
 }
-main .content1 .bg1 .txt1 > p {font-size: 1.25rem; letter-spacing: -0.02em; margin-bottom: 20px;}
-main .content1 .bg1 .txt1 h1 {font-size: 3.125rem; font-weight: 700; letter-spacing: -0.02em; line-height: 53px; margin-bottom: 20px;}
-main .content1 .bg1 .txt1 h1 em {font-size: 3.125rem; font-weight: 700; letter-spacing: -0.02em;}
-main .content1 .bg1 .txt1 .sub {
-    display: flex; text-align: center;
+main .content1 .bg1 .txt1 h1 {
+    text-align: center; padding: 20px 0;
+    font-size: 3.125rem; letter-spacing: -0.02em; 
+    line-height: 55px; font-weight: 700;
+    color: #6B2E2F;
 }
-main .content1 .bg1 .txt1 .sub .sub1 {
-    
+main .content1 .bg1 .txt1 p {
+    font-size: 1.25rem; letter-spacing: -0.02em; 
+    color: #6B2E2F; line-height: 23px;
 }
-main .content1 .bg1 .txt1 .sub .sub1 .img {margin-bottom: 32px;}
-main .content1 .bg1 .txt1 .sub .sub1 .img img {}
-main .content1 h2 {font-size: 1.25rem; letter-spacing: -0.02em; font-weight: 700;}
-main .content1 .bg1 .txt1 .sub .sub1 p {line-height: 25px;}
-main .content1 .bg1 .txt1 .sub .sub1 .ame1 {}
-main .content1 .bg1 .txt1 .sub .sub1 .ame1 li {letter-spacing: -0.02em; font-weight: 700;}
-main .content1 .bg1 .txt1 .sub .sub1 .ame1 li:first-child {
-    font-size: 0.812rem;padding: 5px; width: 170px;
-    background: #FDB925; color: #6B2E2F; border-radius: 100px;
+main .content1 .bg1 .txt1 h1 em {
+    font-size: 3.125rem; letter-spacing: -0.02em; line-height: 55px; font-weight: 700;
+    color: #AE846C;
 }
-main .content1 .bg1 .txt1 .sub .sub1 .ame1 li:last-child {font-size: 1.25rem;}
-main .content1 .bg1 .txt1 .sub .sub1 .ame2 {}
-main .content1 .bg1 .txt1 .sub .sub1 .ame2 li{letter-spacing: -0.02em; font-weight: 700;}
-main .content1 .bg1 .txt1 .sub .sub1 .ame2 li:first-child {
-    font-size: 0.812rem; padding: 5px; width: 150px;
-    background: #E98919; color: #6B2E2F; border-radius: 100px;
+main .content1 .bg1 .txt1 > div {display: flex;}
+main .content1 .bg1 .txt1 > .sub {}
+main .content1 .bg1 .txt1 > .sub .sub1 {height: 300px; padding: 10px 25px 0 0;}
+main .content1 .bg1 .txt1 > .sub .sub2 {height: 300px; padding-left: 25px;}
+main .content1 .bg1 .txt1 > div > div {display: flex; flex-flow: column nowrap; align-items: center;}/*sub numder*/
+main .content1 .bg1 .txt1 > div > .sub1 h2 {padding: 20px 0 10px 0;}
+main .content1 .bg1 .txt1 > div > .sub2 h2 {padding: 10px 0 10px 0;}
+main .content1 .bg1 .txt1 > div > div h2 {
+    font-size: 1.25rem; font-weight: 700; letter-spacing: -0.02em;
+    padding: 15px 0; color: #6B2E2F;
+}/*sub numder*/
+main .content1 .bg1 .txt1 > div > div P {text-align: center; font-weight: 500; letter-spacing: -0.02em;}/*sub numder*/
+main .content1 .bg1 .txt1 > div > div > div {display: flex; flex-flow: column nowrap; text-align: center; padding-top: 15px;}/*ame, mix*/
+main .content1 .bg1 .txt1 > div > div > div > .topa {
+    border-radius: 100px; font-size: 0.812rem;  
+    font-weight: 700; padding: 3px;
+    display: inline-block;
 }
-main .content1 .bg1 .txt1 .sub .sub1 .ame2 li:last-child {font-size: 1.25rem;}
+main .content1 .bg1 .txt1 > div > div > div .topa1 {background-color: #FDB925; color: #6B2E2F;}
+main .content1 .bg1 .txt1 > div > div > div .topa2 {background-color: #E98919; color: #6B2E2F;}
+main .content1 .bg1 .txt1 > div > div > div .topa3 {background-color: #81BC00; color: #fff;}
+main .content1 .bg1 .txt1 > div > div > div .topa4 {background-color: #008136; color: #fff;}
+main .content1 .bg1 .txt1 > div > div > div .btm {font-size: 1.125rem; font-weight: 700; letter-spacing: -0.02em; margin-top: 5px;}
+main .content1 .bg1 .txt1 .sub {}
+/* content2 */
+main .content2 {}
+main .content2 .bg2 {
+    background: url(../tastimg/bg2.jpg) center no-repeat;
+    background-size: cover;
+    height: 650px;
 
-main .content1 .bg1 .txt1 .sub .sub2 {
 }
-main .content1 .bg1 .txt1 .sub .sub2 .img {margin-bottom: 20px;}
-main .content1 .bg1 .txt1 .sub .sub2 .img img {}
-main .content1 .bg1 .txt1 .sub .sub2 p {line-height: 25px;}
-main .content1 .bg1 .txt1 .sub .sub2 .mix1 {}
-main .content1 .bg1 .txt1 .sub .sub2 .mix1 li {letter-spacing: -0.02em; font-weight: 700;}
-main .content1 .bg1 .txt1 .sub .sub2 .mix1 li:first-child {
-    font-size: 0.812rem; padding: 5px; width: 150px;
-    background: #81BC00; color: #fff; border-radius: 100px;
+main .content2 .bg2 .txt2 {
+    display: flex; flex-flow: column nowrap; 
+    position: relative;
+    top: 250px; padding-left: 200px;
 }
-main .content1 .bg1 .txt1 .sub .sub2 .mix1 li:last-child {font-size: 1.25rem;}
-main .content1 .bg1 .txt1 .sub .sub2 .mix2 {}
-main .content1 .bg1 .txt1 .sub .sub2 .mix2 li {letter-spacing: -0.02em; font-weight: 700;}
-main .content1 .bg1 .txt1 .sub .sub2 .mix2 li:first-child {
-    font-size: 0.812rem; padding: 5px; width: 200px;
-    background: #008136; color: #fff; border-radius: 100px;
+main .content2 .bg2 .txt2 h1 {
+    font-size: 2.81rem; letter-spacing: -0.02em; 
+    font-weight: 700; line-height: 45px;
+    color: #6B2E2F;
 }
-main .content1 .bg1 .txt1 .sub .sub2 .mix2 li:last-child {font-size: 1.25rem;}
+main .content2 .bg2 .txt2 p {
+    letter-spacing: -0.02em; line-height: 20px;
+    color: #6B2E2F; margin: 30px 0;
+}
+main .content2 .bg2 .txt2 .btn {}
+main .content2 .bg2 .txt2 .btn a {
+    display: inline-block; width: 130px;
+    background-color: #6B2E2F; color: #FDD000;
+    font-size: 1.25rem; font-weight: 500; letter-spacing: -0.02em;
+    padding: 10px;
+}
