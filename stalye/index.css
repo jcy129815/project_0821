@@ -33,18 +33,19 @@ header .bg0{height: 250px; width: 100%; background: #fff;  position: absolute; t
 main {padding-top: 100px; position: relative;} 
 main .top {} 
 main .top .swiper {
-    width: 100%;
+    width: 100%; height: 900px;
 }
 main .top .swiper .swiper-wrapper {} 
 main .top .swiper .swiper-wrapper .swiper-slide {
-    background-size: cover; background-position: center;height: 750px;
+    background-repeat: no-repeat;
+    background-size: 88%; background-position: center; height: 750px;
 } 
-main .top .swiper .swiper-wrapper .may_slide1 {background-image: url(../tastimg/slide1.jpg);} 
-main .top .swiper .swiper-wrapper .may_slide2 {background-image: url(../tastimg/20220704081439_1656890079400_EeS9YeXQA1.jpg);} 
-main .top .swiper .swiper-wrapper .may_slide3 {background-image: url(../tastimg/20230105173731_1672907851298_0EpyRiEr25.jpg);} 
-main .top .swiper .swiper-wrapper .may_slide4 {background-image: url(../tastimg/20230117141942_1673932782025_OPSxkjgoPE.jpg);} 
-main .top .swiper .swiper-wrapper .may_slide5 {background-image: url(../tastimg/20230531170532_1685520332198_QBTJ2ffJCH.jpg);} 
-main .top .swiper .swiper-wrapper .may_slide6 {background-image: url(../tastimg/20230531170638_1685520398277_AJaTBICnub.jpg);} 
+main .top .swiper .swiper-wrapper .may_slide1 {
+    background-image: url(../tastimg/slide1.jpg);
+} 
+main .top .swiper .swiper-wrapper .may_slide2 {
+    background-image: url(../tastimg/slide2bg.jpg);
+} 
 main .top .swiper .swiper-button-prev {} 
 main .top .swiper .swiper-button-next {} 
 main .top .asidebtn {
@@ -58,14 +59,14 @@ main .content1 {}
 main .content1 ul {display: flex; flex-flow: column nowrap; align-items: center;}
 main .content1 .bg {}
 main .content1 .bg1 {
-    background: url(../tastimg/bg1.jpg) center no-repeat;
+    background: url(../tastimg/bg1_1.jpg) center no-repeat;
     background-size: cover;
     position: relative;
     padding: 70px 0;
 }
 main .content1 .bg1 .txt1 {
     display: flex; flex-flow: column nowrap; align-items: center; width: 500px;
-    position: relative; left: 900px;
+    position: relative; margin-left: 1200px;
 }
 main .content1 .bg1 .txt1 h1 {
     text-align: center; padding: 20px 0;
@@ -111,7 +112,6 @@ main .content2 .bg2 {
     background: url(../tastimg/bg2.jpg) center no-repeat;
     background-size: cover;
     height: 650px;
-
 }
 main .content2 .bg2 .txt2 {
     display: flex; flex-flow: column nowrap; 
@@ -132,5 +132,6 @@ main .content2 .bg2 .txt2 .btn a {
     display: inline-block; width: 130px;
     background-color: #6B2E2F; color: #FDD000;
     font-size: 1.25rem; font-weight: 500; letter-spacing: -0.02em;
-    padding: 10px;
+    padding: 10px; text-align: center;
 }
+/* content3--------------------------------------------------------------- */
