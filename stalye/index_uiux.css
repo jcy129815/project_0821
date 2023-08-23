@@ -4,6 +4,17 @@
 @media screen and (max-width:1600px){
     #top {width: calc(100%-30px);}
 }
+@media screen and (max-width:1550px){
+    main .content2 .bg2 {
+        background: url(../tastimg/bg2_uiux.jpg) center no-repeat;
+        background-size: cover; text-align: center;
+    }
+    main .content2 .bg2 .txt2 {
+        background: rgba(254, 248, 229, 64%);
+        display: inline-block; padding: 10px;
+
+    }
+}
 @media screen and (max-width:1430px){
     main .content1 .bg1 {display: flex; flex-flow: column nowrap; align-items: center;}
     main .content1 .bg1 .shaptitle a span:last-child{
