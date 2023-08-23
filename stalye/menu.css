@@ -1,0 +1,19 @@
+main {}
+/* menu content1============================================================================================================================ */
+#content1 {
+    background: url(../tastimg/menu_bg1.jpg) center no-repeat;
+    background-size: cover;
+}
+#content1 .mainpage {}
+#content1 .mainpage p {
+    color: #FDD000; letter-spacing: -0.02em;
+}
+#content1 .mainpage p:first-child {
+    font-size: 3.125rem; font-weight: 700;
+}
+#content1 .mainpage .mainpage_info {
+    font-size: 1.875rem; 
+}
+#content1 .mainpage .mainpage_info em {}
+#content1 .mainpage .listbtn {}
+#content1 .mainpage .listbtn a {}
