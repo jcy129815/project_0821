@@ -9,7 +9,8 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="../stalye/reset.css">
     <link rel="stylesheet" href="../stalye/index.css">
-    <title>index</title>
+    <link rel="stylesheet" href="../stalye/index_uiux.css">
+    <title>메인 | 메가커피</title>
 </head>
 <body>
     <header>
@@ -23,7 +24,7 @@
                         <li><a href="#">오시는길</a></li>
                     </ul>
                 </li>
-                <li><a href="#">메뉴소개</a>
+                <li><a href="./menu.html">메뉴소개</a>
                     <ul class="sub_nav">
                         <li><a href="#">음료</a></li>
                         <li><a href="#">푸드</a></li>
@@ -59,8 +60,18 @@
         </nav>
         <div class="bg0"></div>
     </header>
+    <aside>
+        <div class="btn">
+            <a href="#"></a>
+            <a href="#content1"></a>
+            <a href="#content2"></a>
+            <a href="#content3"></a>
+            <a href="#content4"></a>
+            <a href="#content5"></a>
+        </div>
+    </aside>
     <main>
-        <section class="top">
+        <section class="top" id="top">
             <div class="swiper"> <!-- css에서 넓이 높이값을 줘야한다 -->
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
@@ -78,53 +89,53 @@
                 </a>
             </div>
         </section>
-        <section class="content1">
+        <section class="content1" id="content1">
             <div class="bg bg1">
-                <div class="txt1">
-                    <p>메가로운 일상의 커피</p>
-                    <h1>
-                        MEGA<br>
-                        <em>MEC</em><br>
-                        STICK
-                    </h1>
-                    <div class="sub">
-                        <div class="sub1">
-                            <p class="img"><img src="../tastimg/bg1_icon.png" alt="" ></p>
-                            <h2>MEGA SIZE</h2>
-                            <p>
+                <div class="title">
+                    <h1>MEGA <em>MEC</em> STICK</h1>
+                    <div class="sub_title">
+                        <span></span>
+                        <p>메가로운 일상의 커피</p>
+                        <span></span>
+                    </div>
+                    <div class="name">
+                        <div class="leftname">
+                            <p class="h2">MEGA SIZE</p>
+                            <p class="info">
                                 하루에 하나로 충분!<br>
                                 메가로운 대용량 아메리카노
                             </p>
-                            <div class="ame1">
-                                <a href="#" class="topa topa1">ORIGINAL AMERICANO</a>
-                                <a href="#" class="btm">오리지날 아메리카노</a>
-                            </div>
-                            <div class="ame2">
-                                <a href="#" class="topa topa2">DECAF AMERICANO</a>
-                                <a href="#" class="btm">디카페인 아메리카노</a>
-                            </div>
                         </div>
-                        <div class="sub2">
-                            <p class="img"><img src="../tastimg/bg1_icon2.png" alt=""></p>
-                            <h2>MEGA SWEET</h2>
-                            <p>
-                                당 걱정 없는 당 충전!<br>
+                        <div class="rigtname">
+                            <p class="h2">MEGA SWEET</p>
+                            <p class="info">
+                                당 걱정없는 당 충전!<br>
                                 건강한 단맛, 스테비아 믹스 커피
                             </p>
-                            <div class="mix1">
-                                <a href="#" class="topa topa3">STEVIA MIX COFFEE</a>
-                                <a href="#" class="btm">스테비아 믹스 커피</a>
-                            </div>
-                            <div class="mix2">
-                                <a href="#" class="topa topa4">STEVIA DECAF MIX COFFEE</a>
-                                <a href="#" class="btm">스테비아 디카페인 믹스 커피</a>
-                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="shaptitle">
+                    <a href="#">
+                        <span>ORIGINAL AMERICANO</span>
+                        <span>오리지날 아메리카노</span>
+                    </a>
+                    <a href="#">
+                        <span>DECAF AMERICANO</span>
+                        <span>디카페인 아메리카노</span>
+                    </a>
+                    <a href="#">
+                        <span>STEVIA MIX COFFEE</span>
+                        <span>스테비아 믹스 커피</span>
+                    </a>
+                    <a href="#">
+                        <span>STEVIA DECAF MIX COFFEE</span>
+                        <span>스테비아 디카페인 믹스 커피</span>
+                    </a>
+                </div>
             </div>
         </section>
-        <section class="content2">
+        <section class="content2" id="content2">
             <div class="bg bg2">
                 <div class="txt2">
                     <h1>
@@ -143,7 +154,7 @@
                 </div>
             </div>
         </section>
-        <section class="content3">
+        <section class="content3" id="content3">
             <div class="bg bg3">
                 <div class="txt3">
                     <h1>올 여름, 반할 남도</h1>
@@ -157,9 +168,9 @@
                 </div>
             </div>
         </section>
-        <section class="content4">
+        <section class="content4" id="content4">
             <div class="bg bg4">
-                <video src="#" loop autoplay></video>
+                <iframe src="https://www.youtube.com/embed/Ppe5NIRco8A" title="메가MGC커피 창업 정보 안내" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <div class="txt4">
                     <h1>
                         FRANCHISE<br>
@@ -173,7 +184,7 @@
                     </h2>
                     <p>
                         합리적인 창업비용과 다양한 경험을 바탕으로,<br>
-                        다양한 노하우를 전수하여 창업 성공을 약속드립니다.<br>
+                        다양한 노하우를 전수하여 창업 성공을 약속드립니다.
                     </p>
                     <a href="#">
                         창업 문의 바로가기
@@ -181,11 +192,11 @@
                 </div>  
             </div>
         </section>
-        <section class="conten5">
+        <section class="content5" id="content5">
             <div class="onepay">
-                <a href="#"><img src="#" alt=""></a>
+                <a href="#"><img src="../tastimg/content5_onepay.jpg" alt=""></a>
                 <div class="info1">
-                    <h1>8월 메가 MGC커피X 하나 원큐</h1>
+                    <p>8월 메가 MGC커피X 하나 원큐</p>
                     <p>
                         [유의사항] - 본 이벤트에 참여하시면<br>
                         최대 2,000하나머니를 적립 받으실 수 있습니다.<br>
@@ -194,16 +205,16 @@
                 </div>
             </div>
             <div class="kakaopay">
-                <a href="#"><img src="#" alt=""></a>
+                <a href="#"><img src="../tastimg/content5_kakaopay.jpg" alt=""></a>
                 <div class="info2">
-                    <h1>카카오페이,  5,000 이상 결제</h1>
+                    <p>카카오페이,  5,000 이상 결제</p>
                     <p>2023-08-14</p>
                 </div>
             </div>
             <div class="event">
-                <a href="#"><img src="#" alt=""></a>
+                <a href="#"><img src="../tastimg/content5_event.png" alt=""></a>
                 <div class="info3">
-                    <h1>여름시즌2 오픈 기념 이벤트</h1>
+                    <p>여름시즌2 오픈 기념 이벤트</p>
                     <p>2023-07-03</p>
                 </div>
             </div>
@@ -212,16 +223,16 @@
     <footer>
         <div class="left">
             <div class="icon">
-                <p><img src="#" alt=""></p>
+                <p><img src="../tastimg/footerlogo.png" alt=""></p>
                 <div class="sns">
-                    <a href="#"><img src="#" alt=""></a>
-                    <a href="#"><img src="#" alt=""></a>
-                    <a href="#"><img src="#" alt=""></a>
+                    <a href="#"><img src="../tastimg/footericon1.png" alt=""></a>
+                    <a href="#"><img src="../tastimg/footericon2.png" alt=""></a>
+                    <a href="#"><img src="../tastimg/footericon3.png" alt=""></a>
                 </div>
             </div>
             <p class="left_txt">
-                <em>주사회사 앤홈</em>  대표삼각자 정찬용  창업상담 2023-0819  고객센터 2023-0819  FiX 26-170-2023
-                사엽차등록번호 170-26-2023  서울특철시 강남팔 강남태로 123 00층, 00층 (주)앤홈
+                <em>주사회사 앤홈</em>  대표삼각자 정찬용  창업상담 2023-0819  고객센터 2023-0819  FiX 26-170-2023<br>
+                사엽차등록번호 170-26-2023  서울특철시 강남팔 강남태로 123 00층, 00층 (주)앤홈<br>
                 개인정보보호 관리책임자 없음
             </p>
         </div>
@@ -273,7 +284,7 @@
     <script> /* swiper-js */
         const swiper = new Swiper('.swiper', {
         // Optional parameters
-            autoplay:{delay:1500},
+            autoplay:{delay:2000},
             loop: true,
             navigation: {
                 nextEl: '.swiper-button-next',

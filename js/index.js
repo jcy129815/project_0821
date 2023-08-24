@@ -20,3 +20,4 @@ for(let j of mainNav){
         navs('none')
     })
 }
+
