@@ -53,3 +53,15 @@ main .drink_title .drink_title_center p {
 main .drink_title >p:last-child {
     font-size: 0.8125rem; letter-spacing: -0.02em; color: #515151;
 }
+/* drink_search ============================================================================================================== */
+main .drink_search {}
+main .drink_search form {}
+main .drink_search form fieldset {}
+main .drink_search form fieldset .search {}
+main .drink_search form fieldset .search p {}
+main .drink_search form fieldset .search .search_bar {}
+main .drink_search form fieldset .search .search_bar > input {}
+main .drink_search form fieldset .search .search_bar button {}
+main .drink_search form fieldset .cheack {}
+main .drink_search form fieldset .cheack label {}
+main .drink_search form fieldset .cheack label > input {}
