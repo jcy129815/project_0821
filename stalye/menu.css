@@ -29,7 +29,9 @@ main {}
     display: inline-block; letter-spacing: -0.02em; 
     padding: 10px; font-size: 1.56rem; 
     color: #FDD000; width: 200px;
+    transition: all 0.2s linear;
 }
+#content1 .mainpage .listbtn a:hover{background: #FDD000; border: none; color: #6B2E2F;}
 #content1 .mainpage .listbtn a:first-child {border:1px solid #FDD000;}
 #content1 .mainpage .listbtn a:nth-child(2) {
     border-top:1px solid #FDD000; 
@@ -96,10 +98,3 @@ main {}
 #content4 .bar {
     display: block; width: 280px; height: 55px; background: #444444;
     position: absolute; bottom: 270px; left: 280px; z-index: 10;}
-
-
-
-
-
-
->>>>>>> ebf34b391a4b4bafd740e1296c1861257529ee4e
