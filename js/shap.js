@@ -1,7 +1,7 @@
-const btn = document.querySelectorAll('main .food_list div .food_poji .poji_title > a')
-const txt = document.querySelectorAll('main .food_list > div .food_txt')
-const div = document.querySelectorAll('main .food_list div .food_poji')
-const xicon = document.querySelectorAll('main .food_list div .food_txt .txt_title > a')
+const btn = document.querySelectorAll('main .shap_list div .shap_poji .poji_title > a')
+const txt = document.querySelectorAll('main .shap_list > div .shap_txt')
+const div = document.querySelectorAll('main .shap_list div .shap_poji')
+const xicon = document.querySelectorAll('main .shap_list div .shap_txt .txt_title > a')
 console.log(btn,txt,div,xicon)
 for(let i of txt){i.style.display = 'none'}
 div.forEach(function(t,i,a){

@@ -103,7 +103,8 @@ main .drink_list > div:nth-child(4) {margin-right: 0;}
 main .drink_list > div:nth-child(8) {margin-right: 0;}
 main .drink_list div /* .drink_1 */ .drink_poji {text-align: center; padding-bottom: 20px;}
 main .drink_list div /* .drink_1 */ .drink_poji > a {display: block; width: 260px; height: 284px;}
-main .drink_list div /* .drink_1 */ .drink_poji > a img {width: 100%;}
+main .drink_list div /* .drink_1 */ .drink_poji > a img {width: 100%; transition: all 0.2s linear;}
+main .drink_list div /* .drink_1 */ .drink_poji > a img:hover {transform: scale(1.05);}
 main .drink_list .drink_1 .drink_poji .poji_title {}
 main .drink_list div /* .drink_1 */ .drink_poji .poji_title > p {
     font-size: 1.25rem; letter-spacing: -0.02em; font-weight: 500;

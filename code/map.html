@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>매장 | 메가커피</title>
+</head>
+<body>
+    <main>
+        <section class="map_title">
+            <p>MEGA STORE</p>
+            <p>STORE</p>
+            <p>
+                언제 어디서나, 부담스럽지 않은 가격과 대용량으로<br>
+                모든 사람들에게 사랑받는 메가MGC커피 입니다
+            </p>
+        </section>
+        <section class="map_rap">
+            <p>홈 > 매장 > 매장찾기</p>
+            <div class="map">
+                <p></p>
+            </div>
+        </section>
+    </main>
+    <!-- 카카오 지도를 사용하기 위한 js앱키 준비 -->
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=784ba1d013411f7b5004ad8a41c2c1cf"></script>
+    <script>
+        var markerPosition  = new kakao.maps.LatLng(/* 위도 */37.4930887,126.7224048);
+        const container = document.getElementById('map'); //지도를 담을 영역의 DOM 레퍼런스
+        let options = { //지도를 생성할 때 필요한 기본 옵션
+			  center: new kakao.maps.LatLng(/*위도*/37.4930887,126.7224048), //지도의 중심좌표.
+		    level: 3 //지도의 레벨(확대, 축소 정도)
+	        };
+        let map = new kakao.maps.Map(container, options); //지도 생성 및 객체 리턴
+
+        var marker = new kakao.maps.Marker({
+	        position: markerPosition
+        });
+        marker.setMap(map);
+    </script>
+</body>
+</html>

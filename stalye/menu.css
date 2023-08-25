@@ -2,7 +2,7 @@ main {}
 /* menu content1============================================================================================================================ */
 #content1 {
     background: url(../tastimg/menu_bg1.jpg) center no-repeat;
-    background-size: cover;
+    background-size: cover; position: fixed; width: 96.8%;
     /* padding-top: 100px; */
 }
 #content1 .mainpage {
@@ -41,7 +41,7 @@ main {}
 /* menu content2============================================================================================================================ */
 #content2 {
     background: url(../tastimg/menu_bg2.jpg) center no-repeat;
-    background-size: cover;  position: relative;
+    background-size: cover;  position: relative; margin-top: 60vh;
     /* padding-top: 100px; */
 }
 #content2 .drink {letter-spacing: -0.02em;display: inline-block; margin: 144px 300px;position: relative; z-index: 15;}
