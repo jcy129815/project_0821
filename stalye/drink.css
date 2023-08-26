@@ -14,23 +14,23 @@ main .topgo a :last-child img {width: 100%;}
     100%{transform: translateY(10px);}
 }
 /* dirnk_page===================================================================================================================================== */
-main .drink_top {background: #E6D2BA; text-align: center;}
+main .drink_top {background: #444444; text-align: center;}
 main .drink_top .drink_page {
     display: flex; flex-flow: column nowrap; align-items: center;
     padding: 107px 0;
 }
 main .drink_top .drink_page p:nth-child(1) {
     font-size: 5rem; font-weight: 700; 
-    letter-spacing: -0.02em; color: #232321;
+    letter-spacing: -0.02em; color: #FDD000;
 }
 main .drink_top .drink_page a {display: inline-block; width: 39px; height: 55px; margin-top: 50px;}
 main .drink_top .drink_page a img {width: 100%;}
 main .drink_top .drink_page .drink_page_info {
-    font-size: 2.5rem; letter-spacing: -0.02em; color: #232321;
+    font-size: 2.5rem; letter-spacing: -0.02em; color: #fff;
     line-height: 50px; margin: 50px 0;
 }
 main .drink_top .drink_page .drink_page_info em {
-    font-size: 2.5rem; letter-spacing: -0.02em; color: #232321;
+    font-size: 2.5rem; letter-spacing: -0.02em; color: #fff;
     font-weight: 700;
 }
 main .drink_top .drink_page .listbtn {
@@ -40,18 +40,18 @@ main .drink_top .drink_page .listbtn {
 main .drink_top .drink_page .listbtn a {
     display: inline-block; letter-spacing: -0.02em; 
     padding: 10px; font-size: 1.56rem; font-weight: 700;
-    color: #232321; width: 200px;
+    color: #fff; width: 200px;
     margin-top: 0; transition: all 0.2s linear;
 }
 main .drink_top .drink_page .listbtn a:hover {
     background: #FDD000; color: #6B2E2F;
 }
-main .drink_top .drink_page .listbtn a:first-child {border:1px solid #AE846C;}
+main .drink_top .drink_page .listbtn a:first-child {border:1px solid #fff;}
 main .drink_top .drink_page .listbtn a:nth-child(2) {
-    border-top:1px solid #AE846C; 
-    border-bottom:1px solid #AE846C;
+    border-top:1px solid #fff; 
+    border-bottom:1px solid #fff;
 }
-main .drink_top .drink_page .listbtn a:last-child {border:1px solid #AE846C;}
+main .drink_top .drink_page .listbtn a:last-child {border:1px solid #fff;}
 /* drink_title ===================================================================================================================================== */
 main .drink_title {text-align: center; padding: 50px 0;}
 main .drink_title > p:first-child {
