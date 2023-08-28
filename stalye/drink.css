@@ -14,7 +14,11 @@ main .topgo a :last-child img {width: 100%;}
     100%{transform: translateY(10px);}
 }
 /* dirnk_page===================================================================================================================================== */
-main .drink_top {background: #444444; text-align: center;}
+main .drink_top {
+    background: url(../dninke_img/gc-libraries-creative-tech-lab-wiOEVPVRfW4-unsplash.jpg) center no-repeat; 
+    background-size: cover;
+    text-align: center;
+}
 main .drink_top .drink_page {
     display: flex; flex-flow: column nowrap; align-items: center;
     padding: 107px 0;

@@ -2,14 +2,14 @@ main {}
 /* menu content1============================================================================================================================ */
 #content1 {
     background: url(../tastimg/menu_bg1.jpg) center no-repeat;
-    background-size: cover; position: fixed; width: 96.8%;
+    background-size: cover; position: fixed; width: calc(100% - 60px);
+    text-align: center; padding: 130px 0;
     /* padding-top: 100px; */
 }
 #content1 .mainpage {
     padding: 20px; text-align: center;
     background: rgba(68, 68, 68, 60%);
     display: inline-block;
-    margin: 160px 33%;
 }
 #content1 .mainpage p {
     color: #FDD000; letter-spacing: -0.02em;
@@ -40,18 +40,18 @@ main {}
 #content1 .mainpage .listbtn a:last-child {border:1px solid #FDD000;}
 /* menu content2============================================================================================================================ */
 #content2 {
-    background: url(../tastimg/menu_bg2.jpg) center no-repeat;
+    background: url(../tastimg/menu_bg2.jpg) right no-repeat;
     background-size: cover;  position: relative; margin-top: 60vh;
     /* padding-top: 100px; */
 }
-#content2 .drink {letter-spacing: -0.02em;display: inline-block; margin: 144px 300px;position: relative; z-index: 15;}
+#content2 .drink {letter-spacing: -0.02em;display: inline-block; margin: 144px 0px 144px 15%;position: relative; z-index: 15;}
 #content2 .drink p:first-child {color: #FDD000; font-size: 3.125rem; font-weight: 700;}
 #content2 .drink span {margin-top: 50px; width: 140px; height: 3px; display: block; background: #fff;}
 #content2 .drink p:nth-child(3) em {font-size: 1.875rem;color: #FDD000; font-weight: 700;}
 #content2 .drink p:nth-child(3) {margin: 50px 0; font-size: 1.875rem; color: #fff; line-height: 40px;}
 #content2 .bar {
     display: block; width: 280px; height: 55px; background: #444444;
-    position: absolute; bottom: 270px; left: 280px; z-index: 10;
+    position: absolute; bottom: 270px; left: 200px; z-index: 10;
 }
 #content2 .drink a {
     display: inline-block; color: #fff; 
@@ -64,7 +64,7 @@ main {}
     background-size: cover;  position: relative;
     /* padding-top: 100px; */
 }
-#content3 .food {letter-spacing: -0.02em;display: inline-block; margin: 144px 300px;position: relative; z-index: 15;}
+#content3 .food {letter-spacing: -0.02em;display: inline-block; margin: 144px 0 144px 15%;position: relative; z-index: 15;}
 #content3 .food p:nth-child(1) {
     color: #FDD000; font-size: 3.125rem; font-weight: 700;
 }
@@ -77,14 +77,14 @@ main {}
     padding: 20px 10px; border: 1px solid #FDD000;}
 #content3 .bar {
     display: block; width: 280px; height: 55px; background: #444444;
-    position: absolute; bottom: 270px; left: 280px; z-index: 10;}
+    position: absolute; bottom: 270px; left: 200px; z-index: 10;}
 /* menu content4============================================================================================================================*/
 #content4 {
-    background: url(../tastimg/menu_bg4.jpg) center no-repeat;
+    background: url(../tastimg/menu_bg4.jpg) top no-repeat;
     background-size: cover;  position: relative;
     /* padding-top: 100px; */
 }
-#content4 .product {letter-spacing: -0.02em;display: inline-block; margin: 144px 300px;position: relative; z-index: 15;}
+#content4 .product {letter-spacing: -0.02em;display: inline-block; margin: 144px 0 144px 15%;position: relative; z-index: 15;}
 #content4 .product p:nth-child(1) {
     color: #FDD000; font-size: 3.125rem; font-weight: 700;
 }
@@ -97,4 +97,4 @@ main {}
     padding: 20px 10px; border: 1px solid #997d02;}
 #content4 .bar {
     display: block; width: 280px; height: 55px; background: #444444;
-    position: absolute; bottom: 270px; left: 280px; z-index: 10;}
+    position: absolute; bottom: 270px; left: 200px; z-index: 10;}

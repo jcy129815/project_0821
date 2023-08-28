@@ -14,10 +14,15 @@ main .topgo a :last-child img {width: 100%;}
     100%{transform: translateY(10px);}
 }
 /* dirnk_page===================================================================================================================================== */
-main .shap_top {background: #444444; text-align: center;}
+main .shap_top {
+    background: url(../shap_img/nathan-dumlao-UoehHcoiMB0-unsplash.jpg) center no-repeat;
+    background-size: cover; 
+    text-align: center;
+}
 main .shap_top .shap_page {
     display: flex; flex-flow: column nowrap; align-items: center;
     padding: 107px 0;
+    background: rgba(5, 5, 5, 35%);
 }
 main .shap_top .shap_page p:nth-child(1) {
     font-size: 5rem; font-weight: 700; 

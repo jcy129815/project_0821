@@ -14,10 +14,14 @@ main .topgo a :last-child img {width: 100%;}
     100%{transform: translateY(10px);}
 }
 /* dirnk_page===================================================================================================================================== */
-main .food_top {background: #444444; text-align: center;}
+main .food_top {
+    background: url(../food_img/rebecca-campbell-wNGD6Qnb1xA-unsplash.jpg) center no-repeat; 
+    text-align: center; background-size: cover; 
+    
+}
 main .food_top .food_page {
     display: flex; flex-flow: column nowrap; align-items: center;
-    padding: 107px 0;
+    padding: 107px 0; background-color: rgba(5,5, 5, 35%);
 }
 main .food_top .food_page p:nth-child(1) {
     font-size: 5rem; font-weight: 700; 
