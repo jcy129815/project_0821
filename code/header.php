@@ -33,7 +33,7 @@
                         <li><a href="#">공지사항</a></li>
                         <li><a href="#">이벤트</a></li>
                         <li><a href="#">FAQ</a></li>
-                        <li><a href="#">고객의 소리</a></li>
+                        <li><a href="./review.html">고객의 소리</a></li>
                     </ul>
                 </li> 
                 <li><a href="#">채용</a>
