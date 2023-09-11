@@ -22,4 +22,18 @@ for(let j of mainNav){
         navs('none')
     })
 }
+// phon============================================================
+const phon = document.querySelector('.phon')
+const btn = document.querySelector('header > a ')
+const close = document.querySelector('header .phon > a')
+console.log(btn,phon,close)
+phon.style.display='none'
+btn.addEventListener('click',function(e){
+    e.preventDefault(),
+    phon.style.display='block'
+})
+close.addEventListener('click',function(e){
+    e.preventDefault(),
+    phon.style.display='none'
+})
 
