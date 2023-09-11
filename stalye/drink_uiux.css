@@ -1,0 +1,20 @@
+@media screen and (max-width:1000px) {
+    main .drink_search form fieldset .search p {margin-right: 400px;}
+    main .drink_search form fieldset .cheack {text-align: start; }
+    main .drink_search form fieldset .cheack label {line-height: 30px;}
+    main .drink_list {width: calc(100% - 30px);}
+    main .drink_list > div {margin-right: 0;}
+}
+@media screen and (max-width:500px) {
+    main .drink_top .drink_page .listbtn {flex-flow: column nowrap;}
+    main .drink_top .drink_page .listbtn a:nth-child(2) {border: 1px solid #fff; margin: 10px 0;}
+    main .drink_title .drink_title_center span {display: none;}
+    main .drink_search form fieldset .search {width: 411px;}
+    main .drink_search form fieldset .search p {margin-right: 100px;}
+    main .drink_search form fieldset .cheack {width: 411px;}
+}
+@media screen and (max-width:400px) {
+    main .drink_search form fieldset .search {width: 369px;}
+    main .drink_search form fieldset .search p {margin-right: 80px;}
+    main .drink_search form fieldset .cheack {width: 369px;}
+}

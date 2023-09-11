@@ -1,0 +1,38 @@
+@media screen and (max-width:500px) {
+    #content1 {padding: 50px 0 130px; width: 391px;}
+    #content1 .mainpage {
+        width: 392px;
+    } 
+    #content1 .mainpage .listbtn {
+        flex-flow: column nowrap; align-items: center;
+    }
+    #content1 .mainpage .listbtn a {border: 1px solid #fdd000; margin-bottom: 10px;}
+    #content1 .mainpage .listbtn a:last-child {margin-bottom: 0;}
+
+    #content2 {
+        margin-top: 100vh; width: 391px;
+        background: url(../tastimg/sss.jpg) center no-repeat;
+        background-size: cover; padding: 38px;
+    }
+    #content2 .drink {
+        margin: 0; padding: 10px;
+        background: rgba(68, 68, 68, 0.80);
+    }
+    #content2 .bar {display: none;}
+
+    #content3 {padding: 38px; width: 391px;}
+    #content3 .food {
+        margin: 0; padding: 10px;
+        background: rgba(68, 68, 68, 0.80);
+    }
+    #content3 .bar {display: none;}
+
+    #content4 {padding: 38px; width: 391px;}
+    #content4 .product {
+        margin: 0; padding: 10px;
+        background: rgba(68, 68, 68, 0.80);
+    }
+    #content4 .bar {display: none;}
+    #content4 .product a {color: #fff; border: 1px solid #fdd000;}
+
+}

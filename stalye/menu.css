@@ -42,7 +42,7 @@ main {}
 /* menu content2============================================================================================================================ */
 #content2 {
     background: url(../tastimg/menu_bg2.jpg) right no-repeat;
-    background-size: cover;  position: relative; margin-top: 60vh;
+    background-size: cover;  position: relative; margin-top: 75vh;
     /* padding-top: 100px; */
 }
 #content2 .drink {letter-spacing: -0.02em;display: inline-block; margin: 144px 0px 144px 15%;position: relative; z-index: 15;}

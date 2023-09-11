@@ -113,7 +113,7 @@ main .shap_list div /* .drink_1 */ .shap_poji > a img:hover {transform: scale(1.
 main .shap_list .shap_1 .shap_poji .poji_title {}
 main .shap_list div /* .drink_1 */ .shap_poji .poji_title > p {
     font-size: 1.25rem; letter-spacing: -0.02em; font-weight: 500;
-    margin-bottom: 30px;
+    margin-bottom: 30px; line-height: 25px;
 }
 main .shap_list div /* .drink_1 */ .shap_poji .poji_title > a {
     display: inline-block;

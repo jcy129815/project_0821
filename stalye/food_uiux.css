@@ -1,0 +1,20 @@
+@media screen and (max-width:1000px) {
+    main .food_search form fieldset .search p {margin-right: 400px;}
+    main .food_search form fieldset .cheack {text-align: start; }
+    main .food_search form fieldset .cheack label {line-height: 30px;}
+    main .food_list {width: calc(100% - 30px);}
+    main .food_list > div {margin-right: 0;}
+}
+@media screen and (max-width:500px) {
+    main .food_top .food_page .listbtn {flex-flow: column nowrap;}
+    main .food_top .food_page .listbtn a:nth-child(2) {border: 1px solid #fff; margin: 10px 0;}
+    main .food_title .food_title_center span {display: none;}
+    main .food_search form fieldset .search {width: 411px;}
+    main .food_search form fieldset .search p {margin-right: 100px;}
+    main .food_search form fieldset .cheack {width: 411px;}
+}
+@media screen and (max-width:400px) {
+    main .food_search form fieldset .search {width: 369px;}
+    main .food_search form fieldset .search p {margin-right: 80px;}
+    main .food_search form fieldset .cheack {width: 369px;}
+}
