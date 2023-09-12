@@ -44,7 +44,7 @@ header nav .main_nav > li > .sub_nav > li {margin-bottom: 25px;}
 header nav .main_nav > li > .sub_nav > li:last-child {margin-bottom: 0;}
 header nav .main_nav > li > .sub_nav > li > a{font-size: 1.1rem; transition: all 0.2s;}
 header nav .main_nav > li > .sub_nav > li > a:hover{
-    font-size: 1rem; color: #FDB925; border-bottom: 2px solid #FDD000;
+    color: #FDB925; border-bottom: 2px solid #FDD000;
 }
 header .bg0{height: 250px; width: 100%; background: #fff;  position: absolute; top: 65px;}  
 /* aside ============================================================================================================================================================================ */
@@ -59,7 +59,7 @@ aside .btn a {
 aside .btn a:hover {background: #6B2E2F;}
 aside .btn a:last-child {margin-bottom: 0;}
 /* main top ========================================================================================================================================================================*/
-main {padding-top: 100px; position: relative; margin:0 30px;} 
+main {padding-top: 100px; position: relative;} 
 main .top {width: 100%; background: #ddd;} 
 main .top .swiper {}
 main .top .swiper .swiper-wrapper {} 
