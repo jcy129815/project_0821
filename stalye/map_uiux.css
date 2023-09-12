@@ -1,0 +1,4 @@
+@media screen and (max-width:1700px) {
+    /* .map_rap {width: calc(100% - 15px);} */
+    main .map_rap .map iframe {width: calc(100% - 15px);}
+}
