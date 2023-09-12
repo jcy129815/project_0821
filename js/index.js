@@ -24,11 +24,11 @@ for(let j of mainNav){
 }
 // phon============================================================
 const phon = document.querySelector('.phon')
-const btn = document.querySelector('header > a ')
+const onbtn = document.querySelector('header > a ')
 const close = document.querySelector('header .phon > a')
 console.log(btn,phon,close)
 phon.style.display='none'
-btn.addEventListener('click',function(e){
+onbtn.addEventListener('click',function(e){
     e.preventDefault(),
     phon.style.display='block'
 })
