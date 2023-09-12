@@ -1,4 +1,4 @@
-body,html {scroll-behavior: smooth;}
+body,html {scroll-behavior: smooth;min-width: 490px;}
 /* header======================================================================================================================================================================== */
 header {
     position: fixed; width: 100%; 
