@@ -10,7 +10,7 @@
     #content1 .mainpage .listbtn a:last-child {margin-bottom: 0;}
 
     #content2 {
-        margin-top: 100vh; width: 391px;
+        margin-top: 600px; width: 391px;
         background: url(../tastimg/sss.jpg) center no-repeat;
         background-size: cover; padding: 38px;
     }
@@ -34,5 +34,7 @@
     }
     #content4 .bar {display: none;}
     #content4 .product a {color: #fff; border: 1px solid #fdd000;}
-
+}
+@media screen and (max-width:450px) {
+    main {width: 450px;}
 }
