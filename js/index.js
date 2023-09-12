@@ -26,7 +26,7 @@ for(let j of mainNav){
 const phon = document.querySelector('.phon')
 const onbtn = document.querySelector('header > a ')
 const close = document.querySelector('header .phon > a')
-console.log(btn,phon,close)
+console.log(onbtn,phon,close)
 phon.style.display='none'
 onbtn.addEventListener('click',function(e){
     e.preventDefault(),
