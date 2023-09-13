@@ -1,20 +1,21 @@
 @media screen and (max-width:1000px) {
-    main .shap_search form fieldset .search p {margin-right: 400px;}
     main .shap_search form fieldset .cheack {text-align: start; }
     main .shap_search form fieldset .cheack label {line-height: 30px;}
     main .shap_list {width: calc(100% - 30px);}
     main .shap_list > div {margin-right: 0;}
+    main .shap_search {width: calc(100% - 30px);}
 }
 @media screen and (max-width:500px) {
     main .shap_top .shap_page .listbtn {flex-flow: column nowrap;}
-    main .shap_top .shap_page .listbtn a:nth-child(2) {border: 1px solid #fff; margin: 10px 0;}
+    main .shap_top .shap_page .listbtn a:nth-child(2) {
+        border: 1px solid #fff; margin: 10px 0;}
     main .shap_title .shap_title_center span {display: none;}
-    main .shap_search form fieldset .search {width: 411px;}
-    main .shap_search form fieldset .search p {margin-right: 100px;}
-    main .shap_search form fieldset .cheack {width: 411px;}
+    main .shap_search {width: calc(100% - 30px);}
+    main .shap_search form fieldset .search {width: 100%;}
+    main .shap_search form fieldset .cheack {width: 100%;}
 }
 @media screen and (max-width:400px) {
-    main .shap_search form fieldset .search {width: 369px;}
-    main .shap_search form fieldset .search p {margin-right: 80px;}
-    main .shap_search form fieldset .cheack {width: 369px;}
+    main .shap_search {width: calc(100% - 30px);}
+    main .shap_search form fieldset .search {width: 100%;}
+    main .shap_search form fieldset .cheack {width: 100%;}
 }
