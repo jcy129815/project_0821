@@ -5,6 +5,9 @@
     main .drink_list > div {margin-right: 0;}
 }
 @media screen and (max-width:500px) {
+    main .drink_title {width: 100%;}
+    main .drink_top {width: calc(100% - 20px);}
+    /* main .drink_top .drink_page {padding: 107px 30px;} */
     main .drink_top .drink_page .listbtn {flex-flow: column nowrap;}
     main .drink_top .drink_page .listbtn a:nth-child(2) {
         border: 1px solid #fff; margin: 10px 0;

@@ -29,11 +29,11 @@ header nav {
 header nav .main_nav {
     display: flex;
 }
-header nav .main_nav > li {margin-right: 40px;}
+header nav .main_nav > li {width: 150px; margin-right: 50px;}
 header nav .main_nav > li:last-child {margin-right: 0;}
 header nav .main_nav > li > a {
     display: inline-block; font-size: 1rem; font-weight: 700;
-    padding-bottom: 10px; width: 92px; transition: all 0.1s; 
+    padding-bottom: 10px; transition: all 0.1s; 
     margin-bottom: 20px;
 }
 header nav .main_nav > li > a:hover {

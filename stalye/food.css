@@ -27,7 +27,7 @@ main .food_top .food_page p:nth-child(1) {
     font-size: 5rem; font-weight: 700; 
     letter-spacing: -0.02em; color: #FDD000;
 }
-main .food_top .food_page a {display: inline-block; width: 39px; height: 55px; margin-top: 50px;}
+main .food_top .food_page a {display: inline-block; width: 39px; margin-top: 50px;}
 main .food_top .food_page a img {width: 100%;}
 main .food_top .food_page .food_page_info {
     font-size: 2.5rem; letter-spacing: -0.02em; color: #fff;
@@ -43,7 +43,7 @@ main .food_top .food_page .listbtn {
 }
 main .food_top .food_page .listbtn a {
     display: inline-block; letter-spacing: -0.02em; 
-    padding: 10px; font-size: 1.56rem; font-weight: 700;
+    font-size: 1.56rem; font-weight: 700; padding: 10px 0;
     color: #fff; width: 200px;
     margin-top: 0; transition: all 0.2s linear;
 }
@@ -94,11 +94,11 @@ main .food_search form fieldset .search p {
     font-size: 1.25rem; letter-spacing: -0.02em; font-weight: 500;
 }
 main .food_search form fieldset .search .search_bar {
-    background: #fff; border: 1px solid black; padding: 6px 10px;
-    border-radius: 25px;
+    background: #eeebeb; padding: 8px 10px;
+    border-radius: 25px; width: 300px;
 }
-main .food_search form fieldset .search .search_bar > input {}
-main .food_search form fieldset .search .search_bar button {}
+main .food_search form fieldset .search .search_bar > input {background: none;}
+main .food_search form fieldset .search .search_bar button {background: none;}
 main .food_search form fieldset .cheack {
     padding: 30px 0; display: inline-block;
     width: 100%;

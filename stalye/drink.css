@@ -27,7 +27,7 @@ main .drink_top .drink_page p:nth-child(1) {
     font-size: 5rem; font-weight: 700; 
     letter-spacing: -0.02em; color: #FDD000;
 }
-main .drink_top .drink_page a {display: inline-block; width: 39px; height: 55px; margin-top: 50px;}
+main .drink_top .drink_page a {display: inline-block; width: 39px; margin-top: 50px;}
 main .drink_top .drink_page a img {width: 100%;}
 main .drink_top .drink_page .drink_page_info {
     font-size: 2.5rem; letter-spacing: -0.02em; color: #fff;
@@ -43,7 +43,7 @@ main .drink_top .drink_page .listbtn {
 }
 main .drink_top .drink_page .listbtn a {
     display: inline-block; letter-spacing: -0.02em; 
-    padding: 10px; font-size: 1.56rem; font-weight: 700;
+    font-size: 1.56rem; font-weight: 700; padding: 10px 0;
     color: #fff; width: 200px;
     margin-top: 0; transition: all 0.2s linear;
 }
@@ -86,11 +86,11 @@ main .drink_search form fieldset .search p {
     font-size: 1.25rem; letter-spacing: -0.02em; font-weight: 500;
 }
 main .drink_search form fieldset .search .search_bar {
-    background: #fff; border: 1px solid black; padding: 6px 10px;
-    border-radius: 25px;
+    background: #eeebeb; padding: 8px 10px;
+    border-radius: 25px; width: 300px;
 }
-main .drink_search form fieldset .search .search_bar > input {width: 240px;}
-main .drink_search form fieldset .search .search_bar button {}
+main .drink_search form fieldset .search .search_bar > input {width: 90%; background: none;}
+main .drink_search form fieldset .search .search_bar button {background: none;}
 main .drink_search form fieldset .cheack {text-align: center; padding: 30px 0; border-top: 1px solid black; display: inline-block;}
 main .drink_search form fieldset .cheack label {
     letter-spacing: -0.02em; font-weight: 500;
