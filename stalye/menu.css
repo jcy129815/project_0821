@@ -41,7 +41,7 @@ main {margin:0 auto;}
 #content1 .mainpage .listbtn a:last-child {border:1px solid #FDD000;}
 /* menu content2============================================================================================================================ */
 #content2 {
-    background: url(../tastimg/menu_bg2.jpg) right no-repeat;
+    background: url(../tastimg/menu_bg2.jpg) center no-repeat;
     background-size: cover;  position: relative; margin-top: 550px;
     /* padding-top: 100px; */
 }
@@ -94,7 +94,7 @@ main {margin:0 auto;}
     position: absolute; bottom: 253px; left: 108px; z-index: 10;}
 /* menu content4============================================================================================================================*/
 #content4 {
-    background: url(../tastimg/menu_bg4.jpg) top no-repeat;
+    background: url(../tastimg/menu_bg4.jpg) center no-repeat;
     background-size: cover;  position: relative;
     /* padding-top: 100px; */
 }
@@ -106,9 +106,9 @@ main {margin:0 auto;}
 #content4 .product p:nth-child(3) em {font-size: 1.875rem;color: #FDD000; font-weight: 700;}
 #content4 .product p:nth-child(3) {margin: 50px 0; font-size: 1.875rem; color: #fff; line-height: 40px;}
 #content4 .product a {
-    display: inline-block; color: #333; 
+    display: inline-block; color: #fff; 
     font-size: 1.562rem; letter-spacing: -0.02em; 
-    padding: 20px 10px; border: 1px solid #997d02;
+    padding: 20px 10px; border: 1px solid #FDD000;
     transition: all 0.3s linear;
 }
 #content4 .product a:hover {
