@@ -50,7 +50,7 @@
     main .content5 div div {width: 250px; height: 138px; padding: 10px;}
     main .content5 .onepay .info1 p:first-child {width: 210px;}
     main .content5 .kakaopay {margin:  0 30px;}
-    footer {flex-flow: column nowrap; width: calc(100% - 15px);}
+    footer {flex-flow: column nowrap; width: 100%;}
     footer .left .icon {margin-bottom: 20px;}
     footer .left {margin-bottom: 50px;}
 }
