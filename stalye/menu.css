@@ -41,7 +41,7 @@ main {margin:0 auto;}
 #content1 .mainpage .listbtn a:last-child {border:1px solid #FDD000;}
 /* menu content2============================================================================================================================ */
 #content2 {
-    background: url(../tastimg/menu_bg2.jpg) center no-repeat;
+    background: url(../tastimg/menu_newbg2.jpg) center no-repeat;
     background-size: cover;  position: relative; margin-top: 550px;
     /* padding-top: 100px; */
 }
@@ -94,7 +94,7 @@ main {margin:0 auto;}
     position: absolute; bottom: 253px; left: 108px; z-index: 10;}
 /* menu content4============================================================================================================================*/
 #content4 {
-    background: url(../tastimg/menu_bg4.jpg) center no-repeat;
+    background: url(../tastimg/menu_newbg4.jpg) center no-repeat;
     background-size: cover;  position: relative;
     /* padding-top: 100px; */
 }
