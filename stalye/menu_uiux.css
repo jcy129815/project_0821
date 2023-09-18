@@ -22,21 +22,21 @@
         background-size: cover; padding: 38px;
     }
     #content2 .drink {
-        margin: 0; padding: 10px;
+        margin: 0; padding: 10px; width: 400px;
         background: rgba(68, 68, 68, 0.80);
     }
     #content2 .bar {display: none;}
 
     #content3 {padding: 38px; width: 100%;}
     #content3 .food {
-        margin: 0; padding: 10px;
+        margin: 0; padding: 10px; width: 400px;
         background: rgba(68, 68, 68, 0.80);
     }
     #content3 .bar {display: none;}
 
     #content4 {padding: 38px; width: 100%;}
     #content4 .product {
-        margin: 0; padding: 10px;
+        margin: 0; padding: 10px; width: 400px;
         background: rgba(68, 68, 68, 0.80);
     }
     #content4 .bar {display: none;}
