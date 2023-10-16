@@ -122,6 +122,7 @@ main .drink_list div /* .drink_1 */ .drink_poji .poji_title > a {
     padding: 10px; border-radius: 10px;
     border-bottom: 2px solid #000; border-right: 2px solid #000;  
     transition: all 0.2s linear;
+    cursor: pointer;
 }
 main .drink_list div /* .drink_1 */ .drink_poji .poji_title > a:hover{
     background: #FDD000;
